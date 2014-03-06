@@ -1,0 +1,556 @@
+<!DOCTYPE HTML >
+<html  xml:lang="zh-TW" lang="zh-TW">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" >
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>¤p¦̦汊¹q·½¡X¡X¤p¦̤⿷»Oŗ©xº򺮴itle>
+<meta name="description" content="" />
+<meta name="keywords" content="¤p¦̦汊¹q·½" />
+<!--<script type="text/javascript" src="http://www.xiaomi.tw/js/jquery.min.js?1.7.2"></script>
+<link rel="stylesheet" type="text/css" href="http://www.xiaomi.tw/css/tw.xm.base.css?131223"/>
+<script type="text/javascript" src="http://www.xiaomi.tw/js/xm.base.min.js?131030"></script>-->
+
+<script type="text/javascript" src="http://z.www.xiaomi.com/t/js/tw/jquery.min.js?1.7.2"></script>
+<link rel="stylesheet" type="text/css" href="http://z.www.xiaomi.com/t/css/tw/tw.xm.base.css?20140304"/>
+<script type="text/javascript" src="http://z.www.xiaomi.com/t/js/tw/xm.base.min.js?20131209"></script>
+<script type="text/javascript">
+    var mark;
+    $(function(){
+        var globalPanel = $(".header_menu_global_panel");
+        $(".headerSlide").hover(function() {
+            "undefined" != typeof gtimeOut && clearTimeout(gtimeOut), globalPanel.slideDown(200)
+        }, function() {
+            gtimeOut = setTimeout(function() {
+                globalPanel.hide()
+            }, 500)
+        })
+    });
+</script>
+<link rel="stylesheet" type="text/css" href="http://z.www.xiaomi.com/t/css/tw/tw.dianyuan.min.css?20140106" />
+<script type="text/javascript" src="http://z.www.xiaomi.com/t/js/tw/dianyuan.js?20140103"></script>
+</head>
+<body>
+<!-- S header -->
+<div class="header container">
+    <div class="top">
+        <div class="logo">
+            <a class="icon-common-logo icon-common" href="http://www.xiaomi.tw/index.php" title="¤p¦̥xŗ¯¸"></a>
+        </div>
+        <div class="right">
+            <div class="menu header-menu-login">
+                <ul>
+                    <li id="headerLogin">
+                            <a href="http://www.xiaomi.tw/site/login">µn¤J</a> / <a href="https://account.xiaomi.com/pass/register?callback=http%3a%2f%2fwww.xiaomi.tw%2flogin%2fcallback%3ffollowup%3dhttp%3a%2f%2fwww.xiaomi.tw%2f&sid=xiaomitw&_locale=zh_TW" target="_blank">µ�a>
+                    </li>
+                    <li style="display: none" id="headerOrder">
+                        <a href="http://www.xiaomi.tw/user/order">§ڪº­q³亯a>
+                    </li>
+                    <li class="headerSlide">
+                                <label class="header_menu_global">
+                                    <i class="icon-common icon-common-global"></i>
+                                    <span>#Ʃ¥xŗ</span>
+                                </label>
+                                <div class="header_menu_global_panel hide">
+                                    <div class="slide"><span>#Ʃ¥xŗ</span></div>
+                                    <div class="slide"><a href="http://www.xiaomi.hk/index.php" target="_blank">#Ʃ­»´⺯a></div>
+                                    <div class="slide slide-first"><a href="http://www.xiaomi.com/index.php" target="_blank">?ɞ¤¤¤㺯a></div>
+                                    <div class="slide"><a href="http://www.xiaomi.com/en" target="_blank">English</a></div>
+                                </div>
+
+                            </li>
+                </ul>
+            </div>
+            <div class="shop" id="miniCart">
+                <a href="http://www.xiaomi.tw/cart" class="pay"><i class="icon-common-carthover icon-common"></i>ª«¨®<em id="miniCartNum" style="display: none"></em></a>
+            </div>
+        </div>
+        <!-- miniCart  S -->
+        <div class="mini-cart-list" id="miniCartList"><div class='loading'>?Ե¥[?¤¤¡A?µy¦Z...</div></div>
+        <!-- miniCart  E-->
+    </div>
+    <div class="nav">
+        <a href="http://www.miui.com/res/doc/eula/tw.html" target="_blank" style="float:right;margin-right:15px;color:#CA471A">¤p¦̺�ᩳĳƜ§󲱪¾</a>
+        <div class="nav-menu">
+            <ul class="lnks-list">
+                <li><a href="http://www.xiaomi.tw/index.php" class="lnk">­º­¶</a></li>
+                <li><a href="http://www.xiaomi.tw/mi3" class="lnk ">¤p¦̤⿷3</a></li>
+                <li><a href="http://www.xiaomi.tw/hongmi" class="lnk ">¬�⿷</a></li>
+                <li><a href="http://www.xiaomi.tw/mi2s" class="lnk ">¤p¦̤⿷2S</a></li>
+                <li><a href="http://www.xiaomi.tw/dianyuan" class="lnk on">¦汊¹q·½</a></li>
+                
+                <li><a href="http://www.xiaomi.tw/accessories" class="lnk ">°t¥񺮡></li>
+                <li><a href="http://tw.miui.com/" class="lnk"target="_blank">MIUI</a></li>
+                <li><a href="http://www.xiaomi.tw/service" class="lnk ">ªA°Ȥ䴩</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- E header -->
+<!-- S breadcrumbs -->
+<div class="container breadcrumbs hide-bread">
+</div>
+<!-- E breadcrumbs -->
+<div class="container">
+    <div class="xm-product-box">
+        <div class="hd nav-bar">
+            <div class="title">
+                <h2>¤p¦̦汊¹q·½</h2>
+            </div>
+            <div class="nav">
+                    <span class="nav-switch js-nav-switch" data-tab-target="productContent">
+                        <a class="tab tab-active" href="#overall">·§­z</a><span class="separator">|</span><a class="tab" href="#gallery">¹϶°</a><span class="separator">|</span><a class="tab" href="#params">³W®亯a><span class="separator">|</span><a class="link" href="http://www.xiaomi.tw/fcode" target="_blank">F½X³q¹D</a><span class="separator">|</span><a class="link" href="http://bbs.xiaomi.cn/forum-693-1.html" target="_blank">µ�°Q½ռ/a>
+                    </span>
+                <a class="btn btn-dakeLight btn-small btn-close" target="_blank">¼Ȯɯʳf</a>
+                <a class="btn btn-primary btn-small btn-open" target="blank" href="http://www.xiaomi.tw/cart/add/2130100011" style="display:none">¥ߧY¶R</a>
+            </div>
+        </div>
+    <div id="productContent" class="bd">
+        <div id="overall" class="dianyuan-content-intro tab-content">
+            <div class="section section-bn">
+                <div class="content">
+                    <h3 class="title">
+                        <span class="num num-10400">10400</span>mAh
+                        <span class="subtitle">¤p¦̦汊¹q·½</span>
+                    </h3>
+                    <p class="text">LG / ¤T¬P¶i¤f¹qª䠁¥��ݥ~´ݼ/p>
+                    <p class="price"><span>NT$ <b class="num num-345">345</b></span></p>
+                </div>
+                <img class="product" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-bn-product.jpg" alt="" />
+            </div>
+            <div class="section section-capacity">
+                <div class="content">
+                    <h3 class="title">
+                        10400mAh¶W¤j¹q¶q
+                        <span class="subtitle">º°굩¤f¾Y÷¤l¹qª⺯span>
+                    </h3>
+                    <p class="text">±ĥΨӦڌG¡B¤T¬Pµ¥°꼚³»¦y¹qª䩑3°ӭ칋©w¨ª䠁¾֦³°ª¹F<br />10400mAh¶W¤j¹q¶q¡A¬°§Aªº¤⿷¡B¥­ªO¡B¼Ʀ쭛¾�ѶW¥G·Q¹³ªºŲ¯诉<br />¶¡¡C¥i¬°¤p¦̤⿷3(3050mAh)´£¨ϲ.5¦¸¥R¹q¡C</p>
+                    <ul class="feature-list">
+                        <li class="first"><span class="data"><b class="num num-25">2.5</b>¦¸</span>¤p¦̤⿷3 ¥R¹q</li>
+                        <li><span class="data"><b class="num num-45">4.5</b>¦¸</span>iPhone5S ¥R¹q</li>
+                        <li><span class="data"><b class="num num-15">1.5</b>¦¸</span>iPad mini ¥R¹q</li>
+                    </ul>
+                    <p class="tips">* ¥H¤W¸ꯆ§¡¬°¹놧«Ǵ�¡A¹꼚¨ϥη|®ھڨ䆩±¡ªp²¤¦³¤£¦P¡C</p>
+                </div>
+                <img class="product" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-capacity-product.jpg" alt="" />
+            </div>
+            <div class="section section-core">
+                <div class="content">
+                    <h3 class="title">
+                        ¥�Źq¸�@´¹¤�                     <span class="subtitle">9­««OĀ¡A·½¦۬�{»�/span>
+                    </h3>
+                    <p class="text">±ĥΥ@¬ɳ̤j¹q¸�³°Ӭ�{»�º³̷sUSB´¼¼z±±¨¤�©񸱴¹¤�r />¤£¶ȴ£¨Ϲ­«¹q¸�@¡A¯া­±´£¤ɥR©񸱮Ĳv¡C</p>
+                    <div class="stage">
+                        <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/product-body.jpg" alt="" />
+                    </div>
+                    <ul class="core-feature-list clearfix">
+                        <li>
+                            <h4>·ū׫OĀ</h4>
+                            <p>¥[¤J¤F¼�qª�±³B²z¾�A½T«O¾Y¹q¦&b¦w¥�׽d³򤺤u§@¡C</p>
+                            <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/icon-protect-01.png" alt="" />
+                        </li>
+                        <li>
+                            <h4>µu¸�@</h4>
+                            <p>¥[¤J«O�µ·¾¹¥󠁦b²§±`µu¸�۰ʫOĀ¡A¨¾¤¾�M¹q¦*º·´·l¡C</p>
+                            <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/icon-protect-02.png" alt="" />
+                        </li>
+                        <li>
+                            <h4>Reset«OĀ</h4>
+                            <p>·���¦󤤃­©wªºt¹ҼvĔ¦汊¹q·½¡A¥i¥H³z¹Lpower¤«쳟¦汊¹q·½ª¬ºA¡C</p>
+                            <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/icon-protect-03.png" alt="" />
+                        </li>
+                        <li>
+                            <h4>¿飊¹L#«OĀ</h4>
+                            <p>³q¹LOVP¹q¸�B²z¡A¨¾¤¤J¹q#¹L°ª¡A¥H§K¹ﬡºݹq¸�¨·l¡¡C</p>
+                            <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/icon-protect-04.png" alt="" />
+                        </li>
+                        <li>
+                            <h4>¿飊¨¾¤ϫOĀ</h4>
+                            <p>·���¹q½u¤ϴ¡®ɡA¹q¸�۰ʤ¤_¤u§@¡A«OĀ¥R¹q¸˸m¡C</p>
+                            <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/icon-protect-05.png" alt="" />
+                        </li>
+                        <li>
+                            <h4>¿餘¹L¬y«OĀ</h4>
+                            <p>´¼¼z¾A®ʀ˴�¹q¬y¡A·¥X¹q¬y¶W¥X¤W­­®ɡA¥D°˃�餘¡A«OĀ«ݥR¹q¸˸m¡C</p>
+                            <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/icon-protect-06.png" alt="" />
+                        </li>
+                        <li>
+                            <h4>¿餘¹L#«OĀ</h4>
+                            <p>´¼¼z¾A®ʀ˴�¹q#¡A·¥X¹q#¶W¥X¤W­­®ɡA¥D°˃�餘¡A«OĀ«ݥR¹q¸˸m¡C</p>
+                            <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/icon-protect-07.png" alt="" />
+                        </li>
+                        <li>
+                            <h4>¹q¦9L¥R¹L©񪐅@</h4>
+                            <p>¥[¤J¤駴±M¥ξY¹q«OĀ¾¹¥󠁦³®ŁקK¹q¦*º¹L¥R¹L©񠁨¾¤¶˹q¦!C</p>
+                            <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/icon-protect-08.png" alt="" />
+                        </li>
+                        <li>
+                            <h4>¹qª㏔C«OĀ</h4>
+                            <p>¶i¤f¹qª䧛±aPTC«OĀ¹q¸����«שM¹q¬y¶W¥X¤W­­®ɡA¥i¦³®ı±¨¬y¡A«OĀ¹qª䥷¥�>
+                            <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/icon-protect-09.png" alt="" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section section-efficiency">
+                <div class="content">
+                    <h3 class="title">
+                        ¥�ΤƥR©񸱮Ĳv
+                        <span class="subtitle">³̰ª¥i¹F93%ªºªOºނॆ²v</span>
+                    </h3>
+                    <p class="text">¥�y¹q¸��§󥷥�঳®Ĵ£¤ɥR¹qà¤Ʋv¡Bí©w©񸱹q#¡A¨þ֦³°ªº묗ªºª�¹¥󠃥�ΤƥR©񸱮Ĳv¡A¤񴶳q¦汊¹q·½§󥮥R¡B§󬀥ΡC</p>
+                    <ul class="feature-list clearfix">
+                        <li class="first"><small>¼W¥[</small><span class="data"><b class="num num-100">100</b>¦¸</span>¨ϥιةR</li>
+                        <li><small>´£¤Ǽ/small><span class="data"><b class="num num-10">10</b>%</span>¹q¶q¿餘®Ĳv</li>
+                        <li><small>³̰ª</small><span class="data"><b class="num num-93">93</b>%</span>ªOºނॆ²v</li>
+                    </ul>
+                </div>
+                <img class="product" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-efficiency-product.jpg" alt="" />
+            </div>
+            <div class="section section-shell">
+                <div class="content">
+                    <h3 class="title">
+                        ¥��ݥ~´݊                        <span class="subtitle">»P MacBook Pro ¤@­Pªºª���¤uĀ¡C</span>
+                    </h3>
+                    <p class="text">±ĥλP MacBook Pro ¤@­Pªºª���¤uĀ¡ACNC°ªº묗¼Ʊ±¾�sΡA¤@Ʃ¦¨«¬ª�~´ߡC·¥°ªªºµ²ºc±j«סA­@ºL¨¾¼²¡Cª���§󤩨¾¦½¨¾»G»k¡A¾A©y�¨­Ţ±a¡C</p>
+                    <p><a href="http://bbs.xiaomi.cn/thread-8831659-1-1.html" target="_blank">¬ݬݾT¦Xª�ߦn¦b­�quo;</a></p>
+                    <ul class="feature-list clearfix">
+                        <li class="first"><span class="data"><b class="num num-50">50</b>¤½¤庯span>³̤j©ӭ«­«¶q</li>
+                        <li><span class="data"><b class="num num-300">300</b>¦¸</span>­@¿i´�li>
+                    </ul>
+                </div>
+                <img class="product" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-shell-product.jpg" alt="" />
+            </div>
+            <div class="section section-body">
+                <div class="content">
+                    <h3 class="title">¥\¯౏¤@Ž</h3>
+                    <p class="text">±N«�B«�B¿飊¿餘¤¶­±¥�m¦b²£«~³»³¡¡A©Ҧ³¾ާ@ºɦb¤裯¤§¶¡¡A¥B¤@¥ؤFµM¡C</p>
+                </div>
+                <img class="product" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-body-product.jpg?20131217" alt="" />
+                <img class="product-text" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-body-product-text.png" alt="" />
+            </div>
+            <div class="section section-compatibility">
+                <div class="content">
+                    <h3 class="title">
+                        ¬ۮe¥D¬y¤⿷»P¥­ªO¹q¸£
+                        <span class="subtitle">¥R¹q¤f¥i¦۰ʽո`¿餘¹q¶q</span>
+                    </h3>
+                    <p class="text">¤p¦̦汊¹q·½¥i®ھڳQ¥R¹qªº¸˸m¡A¦۰ʽո`¿餘¹q¶q¡C¥�e¤p¦̡BApple¡BSamsung¡BHTC¡BGoogle¬ƦۂlackBerryµ¥¤⿷¤Υ­ªO¹q¸£¡A¥i¬°³¡¤<ƽX¬۾�x¤W¹C8¾�q¡C</p>
+                    <p><a href="http://bbs.xiaomi.cn/thread-8829835-1-1.html" target="_blank">¬ۮe©ʸԸϦraquo;</a></p>
+                </div>
+                <div class="stage">
+                    <img class="product-5c" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-compatibility-5c.jpg" alt="" />
+                    <img class="product-mi3" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-compatibility-mi3.jpg" alt="" />
+                    <img class="product-ipad" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-compatibility-ipad.jpg" alt="" />
+                    <img class="product-hm" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-compatibility-hm.jpg" alt="" />
+                    <img class="product-nano" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-compatibility-nano.jpg" alt="" />
+                </div>
+            </div>
+            <div class="section section-design">
+                <div class="content">
+                    <h3 class="title">¶꩷Ĥ½t</h3>
+                    <p>²ŦX¤HƩ¤uµ{¾ǡA¬ۤ񴶳q²£«~ªºٱ¨¤Ĥ½t¡A§󪶩󴦤⬹´¤¡C</p>
+                    <h3 class="title">¶§·¥®񥆤uĀ</h3>
+                    <p>±ĥλPiPad4¤@­Pªº¶§·¥®񥆤uĀ¡A¥i¦bª���§Φ¨°���ªº«OĀ¼h¡A¤£±¼¦⠁§󤛭@¿i­@»G»k¡C</p>
+                    <h3 class="title">´Ã¦¡«�/h3>
+                    <p>µyµy¤U¥Wªº«�A¬ݤ£¨적¦�@ºN´N¯ਤ¨젃</p>
+                </div>
+                <img class="product" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-silder-01.jpg" alt="" />
+            </div>
+            <div class="section section-case">
+                <div class="content">
+                    <h3 class="title">¤»¦⪏Ā®M¥i¿���h3>
+                    <p class="text">¦Ⱝ¡A¬O±¡º�A«סB¬O³\¦h¬ۦP¤¤ªº¤@II¤£¦P¡C<br />ª�º§N�¡A©M¤»´ڳn½¦­짢ªº·ŷx¡A¨ӷP¨�H</p>
+                </div>
+            </div>
+            <div class="section section-test">
+                <div class="content">
+                    <h3 class="title">Ù®浺¸աA¤p¦̫~½溯h3>
+                    <p class="text">¤@Ʃ¦¡¾T¦Xª�ߡA±a¨ӧ󰪵²ºc±j«סG5000¦¸Micro USB´¡©ޡB1500¦¸USB´¡©ޡC<br />¦b¤uĀ»P´�ªº¤£§´¨󠁴N¬O¤p¦̫~½蠃</p>
+                    <h4>¥i¾a©ʴ�h4>
+                    <table class="form-test">
+                        <thead>
+                        <tr>
+                            <th class="name">´�¥ּ/th>
+                            <th class="detail">¶µ¥ظԱ¡</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>¥R¹q¿飊ºݴ¡©ޤO<br />¤δ¡©޹ةR´�td>
+                            <td>´¡©ܵ000¦¸</td>
+                        </tr>
+                        <tr>
+                            <td>USB¿餘ºݴ¡©ޤO<br />¤δ¡©޹ةR´�td>
+                            <td>´¡©ܱ500¦¸</td>
+                        </tr>
+                        <tr>
+                            <td>ESD</td>
+                            <td>±µĲ©񸯸KV/ªŮ𪱹q12KV</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <h4>t¹Ҹօ庯h4>
+                    <table class="form-test">
+                        <thead>
+                        <tr>
+                            <th>´�¥ּ/th>
+                            <th>¶µ¥ظԲӸꯔ</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>°ª·ƀx¦s</td>
+                            <td>70«סA96¤p®Ǽ/td>
+                        </tr>
+                        <tr>
+                            <td>§C·ƀx¦s</td>
+                            <td>-40«סA96¤p®Ǽ/td>
+                        </tr>
+                        <tr>
+                            <td>°ª·Űªc�¦s</td>
+                            <td>60«ՠRH95%¡A96¤p®Ǽ/td>
+                        </tr>
+                        <tr>
+                            <td>·ū״`t</td>
+                            <td>70~-40«סA10­Ӵ`t</td>
+                        </tr>
+                        <tr>
+                            <td>őĺ¸օ庯td>
+                            <td>35«կ5%/24¤p®ɡA3­Ӵ`t</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="section section-bn-footer">
+                <div class="content">
+                    <h3 class="title">
+                        <span class="capacity-num">10400</span>mAh
+                        <span class="subtitle">¤p¦̦汊¹q·½</span>
+                    </h3>
+                    <p class="text">LG / ¤T¬P¶i¤f¹qª䠁¥��ݥ~´ݼ/p>
+                    <p class="price"><span>NT $ <b>345</b></span></p>
+                    <a class="btn btn-primary btn-small btn-open" target="blank" href="http://www.xiaomi.tw/cart/add/2130100011" style="display:none">¥ߧY¶R</a>
+                    <a  class="btn btn-dakeLight btn-small btn-close">¼Ȯɯʳf</a>
+                </div>
+                <img class="product" src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/home-buy-product.jpg" alt="" />
+            </div>
+        </div>
+        <div id="gallery" class="product-content-gallery tab-content hide">
+            <div class="ahz-content-gallary clearfix">
+                <div class="ahz-img-left">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/1.jpg?20131204">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/2.jpg?20131204" class="hide">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/3.jpg?20131204" class="hide">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/4.jpg?20131204" class="hide">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/5.jpg?20131204" class="hide">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/6.jpg?20131204" class="hide">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/7.jpg?20131204" class="hide">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/8.jpg?20131204" class="hide">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/9.jpg?20131204" class="hide">
+                    <img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/10.jpg?20131204" class="hide">
+                </div>
+                <div class="ahz-img-right"><a href="#" class="ahz-imgup">¤W¤@?</a>
+                    <div class="pifu">
+                        <ul>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s1.jpg"></li>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s2.jpg"></li>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s3.jpg"></li>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s4.jpg"></li>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s5.jpg"></li>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s6.jpg"></li>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s7.jpg"></li>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s8.jpg"></li>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s9.jpg"></li>
+                            <li class="img"><img src="http://z.www.xiaomi.com/t/images/2013tw/dianyuan/gallery/s10.jpg"></li>
+                        </ul>
+                    </div><a href="#" class="ahz-imgdown">¤U¤@?</a>
+                </div>
+            </div>
+        </div>
+        <div id="params" class="product-content-param dianyuan-content-param tab-content hide">
+            <div class="section section-param">
+                <dl class="form clearfix">
+                    <dt class="first">°򥻰Ѽļ/dt>
+                    <dd class="first">
+                        <ul>
+                            <li><b>²£«~«¬¸¹</b><span>NDY-02-AD</span></li>
+                            <li><b>¹q¦C�><span>¥�Y÷¤l¹q¦�/span></li>
+                            <li><b>¿飊¹q#</b><span>DC 5V</span></li>
+                            <li><b>¿餘¹q#</b><span>DC 5.1V</span></li>
+                            <li><b>¿飊¹q¬y</b><span>2.0A(TYP)</span></li>
+                            <li><b>¿餘¹q¬y</b><span>2.1A(TYP)</span></li>
+                            <li><b>©w®e¶q</b><span>3.6V/10400mAh(TYP)</span></li>
+                            <li><b>¥R¹q®ɶ¡</b><span>? 5.5 ¤p®Ǡ@5V/2A ¼аt cable</span></li>
+                            <li><b>²£«~¤ؤo</b><span>90.5*77*21.6mm</span></li>
+                            <li><b>­t¸�/b><span>¦۰ˀ˴�´¡¤J©M©ޥX</span></li>
+                            <li><b>¦w¥�/b><span>¥»²£«~¤䴩¿飊°ª#«OĀ¡A¿飊¨¾¤ϫOĀ¡A¿餘¹L¬y«OĀ¡A¿餘¹L#«OĀ¡A¿餘µu¸�@¡A¹q¦9L¨R¹L³X«OĀ¡A¹qª⟐TC «OĀ¡A¥R¹q/©񸱷ū׫OĀ</span></li>
+                            <li><b>«OĀ«쳟</b><span>¨ϥΥR¹q¾¹¶i¦椒¹q°ʧ@¡A§Y¥i«쳟</span></li>
+                            <li><b>¥R¹q·ūռ/b><span>0&#8451;-45&#8451; (TYP)</span></li>
+                            <li><b>©񸱷ūռ/b><span>±Ұʿ餘·ūסG-10&#8451;~+50&#8451;(TYP)<br />«�¥X·ūסG-20&#8451;~+60&#8451;(TYP)</span></li>
+                            <li><b>­«¶q</b><span>250g</span></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="ft nav-bar">
+        <div class="title">
+            <h2>¤p¦̦汊¹q·½</h2>
+        </div>
+        <div class="nav">
+                <span class="nav-switch js-nav-switch" data-tab-target="productContent">
+                    <a class="tab tab-active" href="#overall">·§­z</a><span class="separator">|</span><a class="tab" href="#gallery">¹϶°</a><span class="separator">|</span><a class="tab" href="#params">³W®亯a><span class="separator">|</span><a class="link" href="http://order.xiaomi.com/queue/fcode" target="_blank">F½X³q¹D</a><span class="separator">|</span><a class="link" href="http://bbs.xiaomi.cn/forum-693-1.html" target="_blank">µ�°Q½ռ/a>
+                </span>
+            <a class="btn btn-dakeLight btn-small" target="_blank">¼Ȯɯʳf</a>
+<a class="btn btn-primary btn-small btn-open" target="blank" href="http://www.xiaomi.tw/cart/add/2130100011" style="display:none">¥ߧY¶R</a>
+        </div>
+    </div>
+ </div>
+</div>
+<script type="text/javascript">
+$(function(){
+$.ajax({
+            type:'get',
+            url:'http://www.xiaomi.tw/misc/getstarstock/hdid/dianyuan',
+            dataType:'jsonp',
+            jsonp:"jsonpcallback",
+            success:function(data){
+                if(!data[0].is_cos) {
+                  $('.btn-open').show();
+                  $('.btn-close').hide();
+                }else {
+                  $('.btn-open').hide();
+                  $('.btn-close').show();
+                }
+            }
+     });
+})
+</script>
+<!-- S footer -->
+<div class="footer clearfix">
+    <div class="footerup">
+        <div class="footercont">
+            <div class="fnav">
+                <ul class="clearfix">
+                    <li class="fnav-tit">
+                        <a href="http://www.xiaomi.tw/service/shipping" target="_blank">
+                            <span class="icon-footer icon-free"></span>
+                            <span class="text"><span class="icon-tit">§K¹B¶O</span>¥�NT$500</span>
+                        </a>
+                    </li>
+                    <li class="line icon-common"></li>
+                    <li class="fnav-tit">
+                        <a href="http://www.xiaomi.tw/service/shipping" target="_blank">
+                            <span class="icon-footer icon-cat"></span>
+                            <span class="text"><span class="icon-tit">¶¿ߦv«檋</span>ªA°ȤɯšA­­®ɰe¹F</span>
+                        </a>
+                    </li>
+                    <li class="line icon-common"></li>
+                    <li class="fnav-tit">
+                        <a href="https://play.google.com/store/apps/details?id=com.xiaomi.channel&hl=zh_TW" target="_blank">
+                            <span class="icon-footer icon-miliao"></span>
+                            <span class="text"><span class="icon-tit">¦̲�span>¥�±ªº²ᥑ³nƩ</span>
+                        </a>
+                    </li>
+                    <li class="line icon-common"></li>
+                    <li class="fnav-tit" style="margin-left:0;">
+                        <a href="https://www.facebook.com/xiaomitaiwan" target="_blank">
+                            <span class="icon-footer icon-facebook"></span>
+                            <span class="text"><span class="icon-tit">Facebook¥xŗ</span>¤p¦̯»µ·­¶¡A´ª§A³r°}¨ӡI</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="service clearfix">
+                <dl>
+                    <dt>²£«~½u</dt>
+                    <dd><a href="http://www.xiaomi.tw/mi2s" target="_blank">¤p¦̤⿷2S</a></dd>
+                    <dd><a href="http://www.xiaomi.tw/huosai" target="_blank">¤p¦̬¡¶맕¾�></dd>
+                    <dd><a href="http://www.xiaomi.tw/accessories" target="_blank">°t¥񺮡>&nbsp;/&nbsp;<a href="http://www.xiaomi.tw/accessories/28">�´f®M¸ɼ/a></dd>
+                </dl>
+                <dl>
+                    <dt>0§U¤¤¤ݼ/dt>
+                    <dd><a href="http://www.xiaomi.tw/service/shopping" target="_blank">ª««�></dd>
+                    <dd><a href="http://www.xiaomi.tw/service/pay" target="_blank">¥I´ۀ°§U</a></dd>
+                    <dd><a href="http://www.xiaomi.tw/service/paypalHelp" target="_blank">Paypal¨ϥπ°§U</a></dd>
+                </dl>
+                <dl>
+                    <dt>«Ȥᥤ´©</dt>
+                    <dd><a href="http://www.xiaomi.tw/service/repair" target="_blank">½u¤Uº�I</a></dd>
+                    <dd><a href="http://www.xiaomi.tw/service" target="_blank">ªA°ȱ�²ӫh</a></dd>
+                    <dd><a href="http://www.xiaomi.tw/service/shipping" target="_blank">°t°e³W½d</a>&nbsp;/&nbsp;<a href="http://www.xiaomi.tw/service/lianbao" target="_blank">0«O¬Fµ¦</a></dd>
+                </dl>
+                <dl>
+                    <dt>Ķ©󣰦ʼ/dt>
+                    <dd><a href="http://www.xiaomi.tw/about" target="_blank">¸Ѥp¦ʼ/a></dd>
+                    <dd><a href="mailto:service.tw@xiaomi.com">0µ¸§ڭʼ/a></dd>
+                    <dd><a href="http://www.xiaomi.tw/service/qa" target="_blank">±`¨£Q&A</a></dd>
+                </dl>
+                <div class="online">
+                    <ul>
+                        <li class="item2">
+                            <span class="icon-common icon-common-tel"></span><strong>02-89786776</strong>
+                            <p>ªA°Ȯɶ¡   09:00-18:00 §t¸`°²¤纯p>
+                        </li>
+                        <li class="item1">
+                            <a href="http://www.xiaomi.tw/service/online" class="btn btn-green" target="_blank">
+                                <span class="icon-common icon-common-face"></span>¬d¸߽u¤W«ȪA
+                                <p>®ɶ¡ 9¡G00¡ݱ8¡G00</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footerbtm">
+        <div class="info">
+            <span>c2013 <a href="http://www.xiaomi.com" target="_blank">www.xiaomi.com</a></span>ºX¤Uº�G
+            <a href="http://www.xiaomi.tw/" target="_blank">¤p¦̺򺮡>
+            <a href="http://tw.miui.com/" target="_blank">MIUI</a>
+            <a href="http://www.xiaomi.hk" target="_blank">#Ʃ­»´⺯a>
+            <a href="http://www.xiaomi.com" target="_blank">?ɞ¤¤¤㺯a>
+            <a href="http://www.xiaomi.com/en" target="_blank">English</a>
+            <img src="http://z.www.xiaomi.com/t/images/tw/public/footerbg.png?7" alt="¤p¦̬°µo¿N¦ӥˢ>
+        </div>
+    </div>
+</div>
+<!-- E footer -->
+<script type="text/javascript">
+var orderSiteTokenUnique = "http://www.xiaomi.tw";
+Xmeb.App.loginNavigation.orderUrl = 'http://www.xiaomi.tw/site/logout';
+$(function() {
+//document.domain = "xiaomi.com";
+Xmeb.App.loginNavigation.init();
+Xmeb.App.miniIndexCart.init();
+});
+//Xmeb.App.backTop();
+
+</script>
+<script type="text/javascript">
+    //¦ʫ׬y¶q????©w?
+        var _hmt = _hmt || [];
+        (function() {
+         var hm = document.createElement("script");
+         hm.src = "//hm.baidu.com/hm.js?7080c6a6aba51276281d5d595b080def";
+         var s = document.getElementsByTagName("script")[0]; 
+         s.parentNode.insertBefore(hm, s);
+        })();
+        //¬y¶q??¥­¥x
+        var _msq = _msq || [] ;
+            _msq.push(['setDomainId',104]);
+            _msq.push(['trackPageView']);
+        (function() {
+            var ms = document.createElement('script');
+            ms.type ='text/javascript';
+            ms.async = true ;
+            ms.src = 'http://p.www.xiaomi.com/js/xmst.js';
+            var s = document.getElementsByTagName('script')[0]; 
+            s.parentNode.insertBefore(ms,s);
+        })();
+</script>
+<!--in cms-->
+</body>
+</html> 
